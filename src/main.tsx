@@ -3,8 +3,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
-import { queryClient } from './root/query.root';
-import { rootRouter } from './root/router.root';
+import { queryClient, rootRouter } from '@root';
 
 import './index.css';
 
