@@ -38,6 +38,12 @@
       "@components/*": [
         "components/*"
       ],
+      "@common": [
+        "common"
+      ],
+      "@common/*": [
+        "common/*"
+      ],
     }
   },
   "include": ["src"],
